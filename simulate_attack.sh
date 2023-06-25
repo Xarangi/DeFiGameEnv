@@ -3,6 +3,9 @@
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+sudo apt-get install gnome-terminal
+
 gnome-terminal -- /usr/bin/bash -c "anvil -p 9319" &       #choosing a random port (8545 didn't work on personal system)
 terminal_pid=$!
 
