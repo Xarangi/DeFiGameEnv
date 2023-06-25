@@ -38,12 +38,16 @@ Question: which may be better?
 
 
 ## Research Area 2: Research key factors that an RL training environment needs to have:
+
 Read Alphadev Game Setup.
+
 ![AlphaDev](https://github.com/Xarangi/DeFiGameEnv/assets/62006231/977f6602-d820-4aa3-ae1f-e6058c9f1c78)
+
 Sorting transformed into a single-player assembly game.
 
 
 ## Meeting 1: Focus on environment set-up - Use foundry/possibly hardhat if it doesn’t work.
+
 Progress: Research Area 1:
 - Setup foundry including both forge and anvil, read documentation.
 - Find vulnerable contract, deploy to anvil
