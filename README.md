@@ -2,6 +2,7 @@
 
 ## Using the Repo
 - Run simulate_attack.sh after cloning the repo to install foundry, and execute a toy reentrancy attack.
+- NOTE: gnome-terminal may not work depending on the system due to access issues. In case of such a failure, you can terminate the script when you observe it. Start an anvil instance using anvil -p 9319 on a new terminal. And then rerun the shell script for the attack.
   
 ## Initial thoughts/ideas: (15 minute sprint)
 
